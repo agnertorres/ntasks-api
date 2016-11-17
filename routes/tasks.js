@@ -5,9 +5,9 @@ module.exports = app => {
   app.route("/tasks")
     .all(app.auth.authenticate())
     .get((req, res) => {
-      Tasks.findAll({{
+      Tasks.findAll({
         where: { user_id: req.user.id}
-      }})
+      })
       .then(result => res.json(result))
       .catch(error => {
         res.status(412).json({msg: error.message});

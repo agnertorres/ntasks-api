@@ -12,6 +12,7 @@ module.exports = app => {
 
       Users.findOne({where: {email: email}})
       .then(user => {
+
         if(Users.isPassword(user.password, password)){
           const payload = {id: user.id};
           res.json({
