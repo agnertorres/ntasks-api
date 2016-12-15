@@ -12,7 +12,7 @@ describe("Routes: Tasks", () => {
     Users
       .destroy({where: {}})
       .then(() => Users.create({
-        name: 'Agner',
+        name: "Agner",
         email: "agnertorres@gmail.com",
         password: "12345"
       }))

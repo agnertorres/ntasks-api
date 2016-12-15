@@ -12,7 +12,6 @@ module.exports = app => {
     Users.findById(payload.id)
     .then(user => {
 
-      console.log(user);
       if(user) {
         return done(null, {
           id: user.id,

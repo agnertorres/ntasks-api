@@ -1,0 +1,7 @@
+{"level":"info","message":"::ffff:127.0.0.1 - - [15/Dec/2016:19:13:50 +0000] \"GET / HTTP/1.1\" 304 -\n","timestamp":"2016-12-15T19:13:50.155Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [15/Dec/2016:19:13:52 +0000] \"GET / HTTP/1.1\" 304 -\n","timestamp":"2016-12-15T19:13:52.415Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [15/Dec/2016:19:13:53 +0000] \"GET / HTTP/1.1\" 304 -\n","timestamp":"2016-12-15T19:13:53.314Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [15/Dec/2016:19:13:53 +0000] \"GET / HTTP/1.1\" 304 -\n","timestamp":"2016-12-15T19:13:53.637Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [15/Dec/2016:19:13:53 +0000] \"GET / HTTP/1.1\" 304 -\n","timestamp":"2016-12-15T19:13:53.926Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [15/Dec/2016:20:06:36 +0000] \"GET / HTTP/1.1\" 200 27\n","timestamp":"2016-12-15T20:06:36.848Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [15/Dec/2016:20:06:36 +0000] \"GET /favicon.ico HTTP/1.1\" 404 24\n","timestamp":"2016-12-15T20:06:36.896Z"}
